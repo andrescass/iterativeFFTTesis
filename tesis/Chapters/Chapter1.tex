@@ -1,0 +1,90 @@
+\chapter{Introducción al Trabajo de Tesis}
+
+El presente trabajo de tesis se encuentra enfocado en el contexto del diseño de hardware digital. El
+mismo fue motivado por el creciente avance en las tecnologías utilizadas en los sistemas de
+comunicación en general y en los sistemas \textit{Software Defined
+Radio}\footnote{\label{SDR}Software Defined Radio (SDR por sus siglas en inglés): Sistema de
+comunicaciones donde los componentes típicamente implementados en hardware (mezcladores, filtros, amplificadores, moduladores / demoduladores, detectores, etc) son
+implementados en software.} en particular.
+Los sistemas \textit{SDR} permiten implementar sistemas de comunicación mediante software o hardware digital reconfigurable, otorgándoles una gran flexibilidad.\\
+
+La creciente demanda de velocidad en las telecomunicaciones lleva a la implementación de sistemas de
+transmisión cada vez más veloces. Uno de los sistemas de transmisión de datos más difundidos es el
+sistema \textit{OFDM}, en el cual se utilizan múltiples portadora en las que se modulan los
+datos a trasmitir. Una forma práctica y eficiente de implementar las modulación y demodulación
+multiportadora requerida por este sistema es mediante el uso de la Transformada Discreta de
+Fourier, aprovechando los algoritmos de alta eficiencia disponibles para su implementación.\\
+
+Teniendo en cuenta la complejidad de los sistemas de transmisión \textit{OFDM} y la necesidad de
+poder implementarlos en forma eficiente tanto en consumo como en espacio y recursos utilizados, el
+presente trabajo de tesis se basa en el desarrollo de un sistema de modulación y demodulación para
+transmisiones \textit{OFDM} con muy baja ocupación espacial y de recursos, de manera que pueda ser
+integrado fácilmente en sistemas de comunicación reducidos.
+
+\section{Objetivo}
+El trabajo de tesis tiene como objetivo diseñar e implementar en hardware digital distintas
+arquitecturas capaces de realizar el cálculo de la Transformada Discreta de Fourier (\textit{DFT}
+por sus siglas en inglés), teniendo como requerimientos sobre las arquitecturas desarrolladas que
+realicen el cálculo en forma eficiente y sean de tamaño reducido. El diseño e implementación será
+realizado mediante el lenguaje de modelado de hardware Verilog, orientado a la implementación en
+ASIC, mientras que la validación se realizará en un dispositivo FPGA\footnote{\label{FPGA}Field Programmable
+Gate Array:
+dispositivo semiconductor que contiene bloques de lógica cuya interconexión y funcionalidad
+puede ser configurada `in situ' mediante un lenguaje de descripción
+especializado.}.\\
+
+El desarrollo de la tesis se divide en una parte teórica y una experimental. Se analizarán distintos
+desarrollos algorítmicos para el cálculo de la Transformada Discreta de Fourier, se seleccionarán
+los que se consideren más aptos de acuerdo a los requerimientos para las arquitecturas a desarrollar
+y se realizará un análisis para el diseño de IP cores que implementen los algoritmos seleccionados.
+Una vez finalizado el diseño e implementación se realizarán una serie de pruebas y ensayos de
+verificación de los IP cores generados, para finalizar con la validación de los
+mismos a través de la síntesis en FPGA utilizando un kit de desarrollo. Se analizarán los datos
+obtenidos de cada simulación y prueba para la determinación de las características de los diseños
+implementados, tales como el error y la distorsión total armónica.
+
+
+\section{Alcance}
+
+Como resultados a obtener de la presente tesis se tienen los siguientes:
+
+\begin{itemize}
+    \item IP Cores codificados en el lenguaje Verilog de arquitecturas de
+    cálculo de FFT de tamaño reducido.
+    \item Estudio del comportamiento numérico de las arquitecturas implementadas (ruido, distorsión
+    armónica, etc.)
+    \item Análisis comparativos de procesamiento entre las arquitecturas
+    desarrolladas y desarrollos de terceros.
+    \item Proposición de trabajos futuros y/o mejoras.
+\end{itemize}
+
+\section{Organización del Trabajo}
+En esta sección se describe la organización de la presente tesis. Con el objetivo de que la misma sea
+autocontenida, los primeros capítulos se ocupan de presentar las bases o conocimientos necesarios para comprender la
+totalidad del trabajo.
+
+El desarrollo de la tesis se organiza de la siguiente forma:
+
+\begin{itemize}
+\item En el capítulo 2 se hará referencia a los conceptos requeridos para comprender el desarrollo
+de la Transformada Discreta de Fourier y su utilización en sistemas \textit{OFDM}. Se desarrollarán
+los conceptos teóricos matematicos que describen la Transformada de Fourier y se realizará una breve
+descripción de los sistemas de comunicación \textit{OFDM} para brindar el marco teórico en el que se
+encuadra el trabajo de tesis.
+\item En el capítulo 3 se describirán los diferentes algoritmos para el cálculo de la DFT. Se
+elegirán aquellos que se consideren aptos para la implementación en base a un determinado criterio.
+Se analizarán también las diferentes alternativas que puedan surgir para la implementación de las
+distintas partes componentes de los algoritmos seleccionados y se elegirán las más indicadas de
+acuerdo a determinados criterios que serán expuestos cuando se requieran.
+\item En el capítulo 4 se describirá la implementación en Verilog de los algoritmos seleccionados.
+Se generará un IP core en RTL para cada algoritmo implementado. Dichos RTL deberán cumplir con
+ciertas condiciones de portabilidad y legibilidad de código para que los mismos sean efectivamente
+IP Cores.
+\item En el capítulo 5 se expondrán los bancos de prueba de simulación y los resultados obtenidos de
+las mismas. También se realizará la implementación sobre dispositivos FPGA midiendo los recursos
+utilizados y comparándolo con implementaciones de terceros para verificar el cumplimiento de los
+requerimientos de diseño de las arquitecturas.
+\item En el capítulo 6 se extraerán las conclusiones pertinentes sobre los resultados obtenidos y
+se propondrán futuras mejoras de las arquitecturas a partir del análisis realizado.
+
+\end{itemize}

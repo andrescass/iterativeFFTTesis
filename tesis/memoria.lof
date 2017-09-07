@@ -1,0 +1,64 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Pulso rectangular de longitud 8, continuo y muestreado con N=16\relax }}{7}{figure.caption.21}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Transformada de Fourier de un pulso rectangular\relax }}{7}{figure.caption.22}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Dos formas de transmisi\IeC {\'o}n multiportadora\relax }}{10}{figure.caption.28}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Idea conceptual de una se\IeC {\~n}al OFDM\relax }}{10}{figure.caption.29}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagrama de tiempos de un s\IeC {\'\i }mbolo OFDM\relax }}{11}{figure.caption.30}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Diagrama en bloques de una transmisi\IeC {\'o}n punto a punto OFDM\relax }}{12}{figure.caption.31}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces FFT Radix-2 de 8 puntos\relax }}{22}{figure.caption.78}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Arquitectura Radix-2 desenrollada SDF\relax }}{23}{figure.caption.79}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Arquitectura Radix-2 iterativa\relax }}{23}{figure.caption.80}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Ejemplo de rotaci\IeC {\'o}n con algoritmo Cordic\relax }}{26}{figure.caption.95}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces FFT Radix-2 de 8 puntos\relax }}{32}{figure.caption.109}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Diagrama simplificado de la arquitectura radix-2 iterativa\relax }}{33}{figure.caption.110}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dual Port RAM\relax }}{33}{figure.caption.112}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Esquema del bloque butterfly\relax }}{34}{figure.caption.115}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Esquema del datapath de la arquitectura radix-2\relax }}{34}{figure.caption.117}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Datapath para operaciones de transferencia en memoria\relax }}{35}{figure.caption.118}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Datapath para operaciones en butterfly\relax }}{36}{figure.caption.119}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Selecci\IeC {\'o}n del bit del contador de puntos a evaluar\relax }}{37}{figure.caption.122}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Estados de la m\IeC {\'a}quina de estados principial\relax }}{38}{figure.caption.124}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces M\IeC {\'a}quina de estados operativa para modo \textit {enabled}\relax }}{38}{figure.caption.125}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Datapath con las se\IeC {\~n}ales de control\relax }}{40}{figure.caption.129}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Esquema de una FFT radix-4 de 16 puntos\relax }}{43}{figure.caption.142}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Diagrama simplificado de la arquitectura radix-4 iterativa\relax }}{44}{figure.caption.143}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces RAM de triple entrada y triple salida\relax }}{44}{figure.caption.145}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Esquema de direccionamiento de los subbloques RAM\relax }}{46}{figure.caption.146}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagrama de la unidad aritm\IeC {\'e}tica incluyendo los multiplexores de bypass\relax }}{47}{figure.caption.148}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Datapath de la arquitectura radix-4 iterativa\relax }}{48}{figure.caption.150}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Datapath para operaciones de transferencia en memoria\relax }}{49}{figure.caption.151}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Datapath para operaciones en butterfly\relax }}{50}{figure.caption.152}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Selecci\IeC {\'o}n del par de bits del contador de puntos a evaluar\relax }}{52}{figure.caption.154}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Diagrama de estados y transiciones de la m\IeC {\'a}quina de estados principal\relax }}{52}{figure.caption.156}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Diagrama de estados y transiciones de la m\IeC {\'a}quina de estados secundaria\relax }}{53}{figure.caption.157}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Datapath con las se\IeC {\~n}ales de control\relax }}{54}{figure.caption.160}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Bloque de m\IeC {\'o}dulo de c\IeC {\'o}mputo cordic\relax }}{55}{figure.caption.163}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Diagrama en bloques del m\IeC {\'o}dulo cordic\relax }}{56}{figure.caption.164}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Diagrama en bloques del bloque de rotaciones del m\IeC {\'o}dulo cordic\relax }}{57}{figure.caption.165}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Bloque de m\IeC {\'o}dulo multiplicador complejo\relax }}{57}{figure.caption.167}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Diagrama en bloques de la unidad de escalamiento\relax }}{59}{figure.caption.170}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Se\IeC {\~n}ales de comunicaci\IeC {\'o}n de las arquitecturas implementadas\relax }}{59}{figure.caption.172}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Respuestas a una delta en la componente $0$ para las arquitecturas radix-2 y radix-4\relax }}{65}{figure.caption.190}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Respuestas a una delta en la componente $7$ para las arquitecturas radix-2 y radix-4\relax }}{66}{figure.caption.192}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Diagrama de flujo de la simulaci\IeC {\'o}n para la estimaci\IeC {\'o}n del error\relax }}{67}{figure.caption.197}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Diagrama de flujo de la simulaci\IeC {\'o}n para la estimaci\IeC {\'o}n de la THD\relax }}{70}{figure.caption.203}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces THD en funci\IeC {\'o}n del tono de entrada, radix-2 de 1024 puntos\relax }}{71}{figure.caption.204}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces THD en funci\IeC {\'o}n del tono de entrada, radix-2 de 4096 puntos\relax }}{71}{figure.caption.205}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces THD en funci\IeC {\'o}n del tono de entrada, radix-4 de 1024 puntos\relax }}{72}{figure.caption.206}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces THD en funci\IeC {\'o}n del tono de entrada, radix-4 de 4096 puntos\relax }}{72}{figure.caption.207}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces THD en funci\IeC {\'o}n del tono de entrada, Kiss FFT\relax }}{73}{figure.caption.208}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces THD de la respuesta a dos tonos concecutivos\relax }}{74}{figure.caption.210}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparaci\IeC {\'o}n entre el procesamiento con escalamiento y sin escalamiento\relax }}{74}{figure.caption.212}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces THD en funci\IeC {\'o}n de la etapa en que se realiza es escalamiento\relax }}{75}{figure.caption.213}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces THD en funci\IeC {\'o}n de la etapa en que se realiza es escalamiento para una se\IeC {\~n}al que provoca overflow\relax }}{75}{figure.caption.214}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Testbench para la validaci\IeC {\'o}n de las arquitecturas en hardware\relax }}{76}{figure.caption.216}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Comparativa de tama\IeC {\~n}o de s\IeC {\'\i }ntesis de diferentes arquitecturas para 1024 puntos en una FPGA XC5VLX110\relax }}{77}{figure.caption.218}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Comparativa de tama\IeC {\~n}o de s\IeC {\'\i }ntesis de diferentes arquitecturas para 4096 puntos en una FPGA XC5VLX110\relax }}{77}{figure.caption.219}
+\addvspace {10\p@ }

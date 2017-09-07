@@ -1,0 +1,569 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{BKM}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJMJKS}{%
+         family={Bajard\bibnamedelima J.C.},
+         familyi={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+         suffix={Kla\bibnamedelima S.},
+         suffixi={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Muller\bibnamedelima J.C.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer arithmetic, elementary functions, cordic, redundant number
+  systems.}
+    \strng{namehash}{BJKSMJ1}
+    \strng{fullhash}{BJKSMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1109/ARITH.1993.378098
+    \endverb
+    \field{isbn}{0-8186-3862-1}
+    \field{number}{8}
+    \field{pages}{955\bibrangedash 962}
+    \field{title}{BKM: A New Hardware Algorithm for Complex Elementary
+  Functions}
+    \field{volume}{43}
+    \field{journaltitle}{IEEE Transactions on Computers}
+    \field{month}{06}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Burrus}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CB}{%
+         family={C.},
+         familyi={C\bibinitperiod},
+         given={Burrus},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Multidimensional systems, Convolution, Discrete Fourier transforms,
+  Fast Fourier transforms, Mathematics, Sufficient conditions, Algorithm design
+  and analysis, Signal processing algorithms, Signal mapping, Acoustics}
+    \strng{namehash}{CB1}
+    \strng{fullhash}{CB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1109/TASSP.1977.1162938
+    \endverb
+    \field{issn}{0096-3518}
+    \field{number}{3}
+    \field{pages}{239\bibrangedash 242}
+    \field{title}{Index Mapping for Multidimensional Formulation of the DFT
+  Convolution}
+    \field{volume}{25}
+    \field{journaltitle}{IEEE Transactions on Acoustics, Speed and Signal
+  Processing}
+    \field{month}{06}
+    \field{year}{1977}
+  \endentry
+
+  \entry{Schaffer2_1}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{note}{Recuperado de Wikipedia, the free encyclopedia}
+    \field{title}{Fast Fourier Transform}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Fast_Fourier_transform
+    \endverb
+  \endentry
+
+  \entry{Volder}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=JV}{%
+         family={J.},
+         familyi={J\bibinitperiod},
+         given={Volder},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=CITE}{%
+         family={Comput.},
+         familyi={C\bibinitperiod},
+         given={IRE. Trans.\bibnamedelima Elect.},
+         giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JV1}
+    \strng{fullhash}{JV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{title}{The Cordic Computer Technique}
+    \field{year}{1959}
+  \endentry
+
+  \entry{KISSFFT}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Kiss FFT is a very small, reasonably efficient, mixed radix
+  FFT library that can use either fixed or floating point data types.}
+    \verb{url}
+    \verb https://sourceforge.net/projects/kissfft/?source=navbar
+    \endverb
+  \endentry
+
+  \entry{torkelson}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MSHT}{%
+         family={M.},
+         familyi={M\bibinitperiod},
+         given={Shousheng H.\bibnamedelima Torkelson},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+    }
+    \keyw{Pipelines, Computer architecture, Very large scale integration,
+  Delay, Flow graphs, Computational modeling, Hardware design languages}
+    \strng{namehash}{MSHT1}
+    \strng{fullhash}{MSHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.1109/IPPS.1996.508145
+    \endverb
+    \field{isbn}{0-8186-7255-2}
+    \field{title}{A New Approach to Pipeline FFT Processor}
+    \field{journaltitle}{International Parallel Processing Symposium}
+    \field{month}{04}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Shannon}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PJMD}{%
+         family={Proakis\bibnamedelima J.},
+         familyi={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+         given={Manolakis\bibnamedelima D.},
+         giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice-Hall}%
+    }
+    \strng{namehash}{PJMD1}
+    \strng{fullhash}{PJMD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{chapter}{The Sampling Theorem}
+    \field{pages}{29\bibrangedash 33}
+    \field{title}{Digital Signal Processing. Principles, Algorithms and
+  Applications}
+    \list{location}{1}{%
+      {USA}%
+    }
+    \field{year}{1997}
+  \endentry
+
+  \entry{Schaffer2_2}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ROAS}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Oppenheim A.\bibnamedelima Schafer},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{ROAS1}
+    \strng{fullhash}{ROAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{chapter}{Cómputo de la Transformada Discreta de Fourier}
+    \field{pages}{631\bibrangedash 694}
+    \field{title}{Tratamiento de Señales en Tiempo Discreto}
+    \list{location}{1}{%
+      {España}%
+    }
+    \field{year}{2000}
+  \endentry
+
+  \entry{Schaffer2_3}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ROAS}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Oppenheim A.\bibnamedelima Schafer},
+         giveni={O\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Prentice Hall}%
+    }
+    \strng{namehash}{ROAS1}
+    \strng{fullhash}{ROAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{chapter}{La Transformada Discreta de Fourier}
+    \field{pages}{543\bibrangedash 572}
+    \field{title}{Tratamiento de Señales en Tiempo Discreto}
+    \list{location}{1}{%
+      {España}%
+    }
+    \field{year}{2000}
+  \endentry
+
+  \entry{Prasad2_1}{book}{}
+    \name{author}{1}{}{%
+      {{hash=RP}{%
+         family={R.},
+         familyi={R\bibinitperiod},
+         given={Prasad},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Artech House}%
+    }
+    \strng{namehash}{RP1}
+    \strng{fullhash}{RP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{chapter}{Orthogonal Frequency-Division Multiplexing}
+    \field{pages}{11\bibrangedash 15}
+    \field{title}{OFDM for Wireless Communication Systems}
+    \list{location}{1}{%
+      {UK}%
+    }
+    \field{year}{2004}
+  \endentry
+
+  \entry{WinoConv}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SW}{%
+         family={S.},
+         familyi={S\bibinitperiod},
+         given={Winograd},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SW1}
+    \strng{fullhash}{SW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{issn}{0025-5718}
+    \field{number}{141}
+    \field{pages}{175\bibrangedash 199}
+    \field{title}{On Computing the Discrete Fourier Transform}
+    \field{volume}{32}
+    \field{journaltitle}{Mathematic of Computation}
+    \field{month}{01}
+    \field{year}{1978}
+  \endentry
+
+  \entry{Meyer2_1}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{343\bibrangedash 400}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{Meyer3_1}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{343\bibrangedash 344}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{meyer_Goerts}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{349\bibrangedash 350}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{meyer_CZT}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{350\bibrangedash 353}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{Rader}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{353\bibrangedash 355}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{gener}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{67}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{Meyer2_2}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{363\bibrangedash 373}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{Meyer_Kron}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{375\bibrangedash 376}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{radix_meyer}{book}{}
+    \name{author}{1}{}{%
+      {{hash=UMB}{%
+         family={U},
+         familyi={U},
+         given={Meyer-Baese},
+         giveni={M\bibinitperiod-B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \strng{namehash}{UMB1}
+    \strng{fullhash}{UMB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{chapter}{Fourier Transform}
+    \field{pages}{365\bibrangedash 366}
+    \field{title}{Digital Signal Processing with Field Programmable Gate
+  Arrays}
+    \list{location}{1}{%
+      {Berlin}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{fftXilinx}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=X}{%
+         family={Xilinx},
+         familyi={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{X1}
+    \strng{fullhash}{X1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{X}
+    \field{sortinithash}{X}
+    \field{title}{LogiCORE IP Fast Fourier Transform v7.1.}
+    \field{year}{2011}
+  \endentry
+\endsortlist
+\endinput

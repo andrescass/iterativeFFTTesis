@@ -1,0 +1,356 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memoria para Trabajos Final es de la 
+% Carrera de Especialización en 
+% Sistemas Embebidos de la FIUBA
+%
+% Versión 3.00 (11/10/2016)
+%
+% Basado en:
+
+% Masters/Doctoral Thesis 
+% LaTeX Template
+% Version 2.3 (25/3/16)
+%
+% Version 2.x major modifications by:
+% Vel (vel@latextemplates.com)
+%
+% This template is based on a template by:
+% Steve Gunn (http://users.ecs.soton.ac.uk/srg/softwaretools/document/templates/)
+% Sunil Patel (http://www.sunilpatel.co.uk/thesis-template/)
+%
+% Template license:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+11pt, % The default document font size, options: 10pt, 11pt, 12pt
+%oneside, % Two side (alternating margins) for binding by default, uncomment to switch to one side
+%chapterinoneline,% Have the chapter title next to the number in one single line
+%english, % ngerman for German
+spanish,
+singlespacing, % Single line spacing, alternatives: onehalfspacing or doublespacing
+%draft, % Uncomment to enable draft mode (no pictures, no links, overfull hboxes indicated)
+%nolistspacing, % If the document is onehalfspacing or doublespacing, uncomment this to set spacing in lists to single
+%liststotoc, % Uncomment to add the list of figures/tables/etc to the table of contents
+%toctotoc, % Uncomment to add the main table of contents to the table of contents
+parskip, % Uncomment to add space between paragraphs
+%nohyperref, % Uncomment to not load the hyperref package
+headsepline, % Uncomment to get a line under the header
+]{MastersDoctoralThesis} % The class file specifying the document structure
+
+
+
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+
+\usepackage{palatino} % Use the Palatino font by default
+\usepackage[backend=bibtex,natbib=true]{biblatex} % Use the bibtex backend
+
+\addbibresource{references.bib} % The filename of the bibliography
+
+\usepackage[autostyle=true]{csquotes} % Required to generate language-dependent quotes in the bibliography
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+%------------------------
+\usepackage{listings}
+
+%\usepackage[hyphens]{url}
+%\usepackage[hidelinks]{hyperref}
+%\hypersetup{breaklinks=true}
+%\urlstyle{same}
+%\usepackage{cite}
+
+%--------------------------
+
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+%\usepackage{subfig}
+%\usepackage{subcaption}
+% \usepackage{mathabx}
+% \usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+% \usepackage{amsthm}
+% \usepackage{mathrsfs}
+% \usepackage{float}
+
+%
+%----------------------------------------------------------------------------------------
+%	MARGIN SETTINGS
+%----------------------------------------------------------------------------------------
+
+\geometry{
+	paper=a4paper, % Change to letterpaper for US letter
+	inner=2cm, % Inner margin
+	outer=3.3cm, % Outer margin
+	bindingoffset=2cm, % Binding offset
+	top=1.5cm, % Top margin
+	bottom=1.5cm, % Bottom margin
+	%showframe,% show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+%	INFORMACIÓN DE LA PORTADA
+%----------------------------------------------------------------------------------------
+
+\thesistitle{Implementación y análisis de algoritmos de cálculo de Transformada Rápida de
+	Fourier para su aplicación en sistemas OFDM} % El títulos de la memoria, se usa en la carátula y se puede usar el cualquier lugar del documento con el comando \ttitle
+\supervisor{Dr. Ing. Ariel Lutenberg} % El nombre del director, se usa en la carátula y se puede
+% usar el cualquier lugar del documento con el comando \supname
+\cosupervisor{Ing. Fedeerico Giordano Zacchigna}
+\degree{Ingeniero Electrónico} % Nombre del grado, se usa en la carátula y se puede usar el
+% cualquier lugar del documento con el comando \degreename
+\author{Andrés Dario Cassagnes} % Tu nombre, se usa en la carátula y se puede usar el cualquier
+% lugar del documento con el comando \authorname
+\juradoUNO{Dr. Ing. Leonardo Rey Vega} % Nombre y pertenencia del un jurado se usa en la carátula y
+% se puede usar el cualquier lugar del documento con el comando \jur1name
+\juradoDOS{Ing. Carlos Belaustegui Goitia} % Nombre y pertenencia del un jurado se usa en la
+% carátula y se puede usar el cualquier lugar del documento con el comando \jur2name
+\juradoTRES{Ing. Nicolas Álvarez} % Nombre y pertenencia del un jurado se usa en la carátula y se
+% puede usar el cualquier lugar del documento con el comando \jur3name
+\fechaINICIO{enero de 2016}
+\fechaFINAL{diciembre de 2016}
+
+%----------------------------------------------------------------------------------------
+%	FIN INFORMACIÓN DE LA PORTADA
+%----------------------------------------------------------------------------------------
+
+\subject{Memoria del Trabajo de Tesis de la Carrera de Ingeniería en Electrónica de la
+UBA}
+% Your subject area, this is not currently used anywhere in the template, print it elsewhere with \subjectname
+\keywords{OFDM, FFT, Sistemas Digitales, FPGA} % Keywords for your thesis, this is not currently
+% used anywhere in the template, print it elsewhere with \keywordnames
+\university{Universidad de Buenos Aires} % Your university's name and URL, this is used in the title page and abstract, print it elsewhere with \univname
+\faculty{{Facultad de Ingeniería}} % Your faculty's name and URL, this is used in the title page and abstract, print it elsewhere with \facname
+\department{Departamento de Electrónica} % Your department's name and URL, this is used in the title page and abstract, print it elsewhere with \deptname
+\group{{Laboratorio de Sistemas Embebidos}} % Your research group's name and URL, this is used in the title page, print it elsewhere with \groupname
+
+
+\hypersetup{pdftitle=\ttitle} % Set the PDF's title to your title
+\hypersetup{pdfauthor=\authorname} % Set the PDF's author to your name
+\hypersetup{pdfkeywords=\keywordnames} % Set the PDF's keywords to your keywords
+
+
+\newcaptionname{spanish}{\acknowledgementname}{Agradecimientos}
+\newcaptionname{spanish}{\authorshipname}{Declaración de Autoría}
+\newcaptionname{spanish}{\abbrevname}{Glosario}
+\newcaptionname{spanish}{\byname}{por}
+
+\renewcommand{\lstlistingname}{Algoritmo}% Listing -> Algorithm
+\renewcommand{\lstlistlistingname}{Índice de \lstlistingname s}% List of Listings -> List of Algorithms
+
+\renewcommand{\listtablename}{Índice de Tablas}
+\renewcommand{\tablename}{Tabla} 
+
+\addtolength{\footnotesep}{2mm} % Espacio adicional en los footnotes
+
+\begin{document}
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\pagestyle{plain} % Default to the plain heading style until the thesis style is called for the body content
+
+%----------------------------------------------------------------------------------------
+%	PORTADA
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+\begin{center}
+
+{\scshape\LARGE UNIVERSIDAD DE BUENOS AIRES\par}\vspace{0.1cm} % University name
+{\scshape\LARGE FACULTAD DE INGENIERÍA\par}\vspace{0.1cm} % Faculty name
+{\scshape\LARGE Ingeniería en Electrónica\par}\vspace{1cm} % Thesis type
+
+\includegraphics[width=.3\textwidth]{./figures/logoFIUBA.png}
+\vspace{1cm}
+
+\textsc{\Large Memoria del Trabajo de Tesis}\\[0.5cm] % Thesis type
+
+{\huge \bfseries \ttitle\par}\vspace{0.4cm} % Thesis title
+
+\vspace{1cm}
+\LARGE\textbf{Autor:\\
+\authorname}\\ % Author name
+
+%\vspace{1cm}
+
+\large
+\vspace{10px}
+{Director:} \\
+{\supname} % Supervisor name
+
+\large
+\vspace{10px}
+{Codirector:} \\
+{\cosupname} % Supervisor name
+
+\vspace{10px} 
+%\vspace{1cm}
+Jurados:\\
+\jurunoname\\
+\jurdosname\\
+\jurtresname
+ 
+\vfill
+\textit{Este trabajo fue realizado en la ciudad de San Carlos de Bariloche y en la Ciudad Autónoma
+de Buenos Aires, entre
+\fechaINICIOname
+\hspace{1px} y \fechaFINALname.}
+\end{center}
+\end{titlepage}
+
+
+%----------------------------------------------------------------------------------------
+%	RESUMEN
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
+%
+%The Thesis Abstract is written here (and usually kept to just this page). The page is kept centered vertically so can expand into the blank space above the title too\ldots
+\centering
+
+El objetivo de este trabajo es el diseño y la implementación en hardware digital de una arquitectura
+de cómputo de la transformada rápida de Fourier para ser utilizada en la modulación y demodulación
+de un sistema de comunicaciones OFDM. El trabajo de tesis se encuadra dentro del proyecto Software
+Defined Radio del Laboratorio de Sistemas Embebidos.
+
+Se presenta la teoría de base necesaria para poder explicar los desarrollos realizados. Se
+realiza una introducción teórica a la transformada rápida de Fourier y su utilización en los
+sistemas de comunicación OFDM, realizando una breve reseña de la teoría de estos sistemas de
+comunicación.
+
+Se describen las arquitecturas desarrolladas durante el trabajo de tesis, explicando en cada caso
+el criterio utilizado para la selección de las arquitecturas y algoritmos a implementar. 
+
+Por último, se analizan los resultados obtenidos, determinando la utilidad de la o las
+arquitecturas implementadas para el fin para el cual se desarrollaron en base a ese análisis, y se
+proponen trabajos futuros.
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	AGRADECIMIENTOS
+%----------------------------------------------------------------------------------------
+
+\begin{acknowledgements}
+%\addchaptertocentry{\acknowledgementname} % Descomentando esta línea se puede agregar los agradecimientos al índice
+\vspace{1.5cm}
+
+En primer lugar quiero agradecerle a mi director de tesis, el Dr. Ing. Ariel Lutenberg, mi
+co-director, el Ing. Federico Gioradno Zacchigna, apodado afectuosamente como el ''Colo'', y al Ing.
+Octavio Alpago, por haberme guíado, ayudado y aconsejado durante el desarrollo del trabajo de
+tesis. También quiero agradecerles por permitirme ser parte del proyecto Software Define Radio en
+el cual se enmarca el presente trabajo.
+
+Agradezco especialmente a los miembros del jurado, el Dr. Ing. Leonardo Rey Vega, el Ing. Carlos
+Belaustegui Goitia y el Ing. Nicolás Alvarez por dedicar tiempo a la evaluación de este trabajo.
+
+Quiero agradecer muy especialmente a mi esposa, Analía, por apoyarme, acompañarme, soportarme,
+incentivarme, y a veces marcarme el camino con cierta firmeza, a lo largo de la carrera y la
+realización del presente trabajo de tesis. Su apoyo y paciencia fueron fundamentales para la
+finalización de esta etapa de mi vida.
+
+A mis padres, grandes responsables de la persona que soy, y de quienes aprendí el valor de la
+perseverancia y el trabajo duro. A mi hermano Luis y su familia, Adriana y Agustín, por aceptarme
+en su hogar en los primeros años de la carrera.\\
+A la familia Rodas, por aceptarme y hacerme sentir desde el principio como uno más de la familia.
+
+A mis compañeros de la facultad con quienes desarrollé una amistad más allá de las aulas. Guido
+Martinez y Lucho Natale, con quienes cerramos filas en los últimos años de cursada y
+encaramos en conjunto el arduo trabajo de la tesis de grado. A Sebastián D'Agostino y Adrián Coria,
+con quienes compartí el comienzo de la carrera, cursadas, charlas y una
+buena cantidad de cerveza.
+
+A mi amigo de la vida Horacio Arce, apoyo incondicional en todo momento sin importar horas o
+distancias.
+ 
+A los compañeros de facultad, a quienes valoro mucho haber conocido y compartido horas, tanto de
+cursada como fuera de las aulas. Sebastián Gerez, Juanjo Borges, Juan Pablo Contini, Dario Basso.
+
+A aquellos profesores de quienes me llevo más que solo conceptos de sus materias. Fernando Barreiro,
+Carlos Belaustegui, Octavio Alpago, Leandro Santi, Daniel Dalmati, Juan Manuel Cruz. Compartieron no
+solo sus conocimientos, sino también su experiencia de vida con total generosidad.
+
+Al Laboratorio de Sistemas Embebidos, y a su director Dr. Ing. Ariel Lutenberg, por abrirme las
+puertas, recibirme y brindar un ámbito de trabajo excelente para poder desarrollar no solo el
+presente trabajo de tesis sino otros proyectos académicos.
+
+A mis compañeros de trabajo de estos últimos años, el grupo de Instrumentación Neutrónica de INVAP
+SE. Darío, Emiliano, Emmanuel, Federico, Fernando y Marcos, por apoyarme, incentivarme, e
+inisistirme cuando hizo falta, para que finalice el presente trabajo de tesis.
+
+\end{acknowledgements}
+
+%----------------------------------------------------------------------------------------
+%	LISTA DE CONTENIDOS/FIGURAS/TABLAS
+%----------------------------------------------------------------------------------------
+\renewcommand{\listtablename}{Índice de Tablas}
+
+\tableofcontents % Prints the main table of contents
+
+\listoffigures % Prints the list of figures
+
+\listoftables % Prints the list of tables
+
+
+%----------------------------------------------------------------------------------------
+%	DEDICATORIA
+%----------------------------------------------------------------------------------------
+
+\dedicatory{\textbf{A mis padres}}  % escribir acá si se desea una dedicatoria
+
+%----------------------------------------------------------------------------------------
+%	CAPÍTULOS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+\renewcommand{\tablename}{Tabla} 
+
+% Incluir los capítulos como archivos separados desde la carpeta Chapters
+% Descomentar las líneas a medida que se escriben los capítulos
+
+\include{Chapters/Chapter1}
+\include{Chapters/Chapter2}
+\include{Chapters/Chapter3}
+\include{Chapters/Chapter4} 
+\include{Chapters/Chapter5}
+\include{Chapters/Chapter6} 
+%\include{bibliografia}
+
+%----------------------------------------------------------------------------------------
+%	APÉNDICES
+%----------------------------------------------------------------------------------------
+
+%\appendix % indicativo para indicarle a LaTeX los siguientes "capítulos" son apéndices
+
+% Incluir los apéndices de la memoria como archivos separadas desde la carpeta Appendices
+% Descomentar las líneas a medida que se escriben los apéndices
+
+%\include{Appendices/AppendixA}
+%\include{Appendices/AppendixB}
+%\include{Appendices/AppendixC}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\Urlmuskip=0mu plus 1mu\relax
+\raggedright
+\printbibliography[heading=bibintoc]
+
+%----------------------------------------------------------------------------------------
+
+\end{document}  

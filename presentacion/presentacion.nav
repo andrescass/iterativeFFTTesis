@@ -1,0 +1,151 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\sectionentry {1}{Motivaci\IeC {\'o}n y Objetivos}{2}{Motivaci\IeC {\'o}n y Objetivos}{0}}
+\headcommand {\beamer@sectionpages {1}{1}}
+\headcommand {\beamer@subsectionpages {1}{1}}
+\headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {1}{0}{2}{3/6}{}{0}}
+\headcommand {\beamer@framepages {3}{6}}
+\headcommand {\slideentry {1}{0}{3}{7/14}{}{0}}
+\headcommand {\beamer@framepages {7}{14}}
+\headcommand {\slideentry {1}{0}{4}{15/17}{}{0}}
+\headcommand {\beamer@framepages {15}{17}}
+\headcommand {\slideentry {1}{0}{5}{18/25}{}{0}}
+\headcommand {\beamer@framepages {18}{25}}
+\headcommand {\slideentry {1}{0}{6}{26/26}{}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{27}{Motivacion}}\headcommand {\beamer@subsectionpages {2}{26}}
+\headcommand {\slideentry {1}{1}{1}{27/30}{Motivacion}{0}}
+\headcommand {\beamer@framepages {27}{30}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{31}{Objetivos}}\headcommand {\beamer@subsectionpages {27}{30}}
+\headcommand {\slideentry {1}{2}{1}{31/42}{Objetivos}{0}}
+\headcommand {\beamer@framepages {31}{42}}
+\headcommand {\sectionentry {2}{Selecci\IeC {\'o}n de las arquitecturas}{43}{Selecci\IeC {\'o}n de las arquitecturas}{0}}
+\headcommand {\beamer@sectionpages {2}{42}}
+\headcommand {\beamer@subsectionpages {31}{42}}
+\headcommand {\slideentry {2}{0}{1}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{44}{Transformada de Fourier}}\headcommand {\beamer@subsectionpages {43}{43}}
+\headcommand {\slideentry {2}{1}{1}{44/50}{Transformada de Fourier}{0}}
+\headcommand {\beamer@framepages {44}{50}}
+\headcommand {\slideentry {2}{1}{2}{51/54}{Transformada de Fourier}{0}}
+\headcommand {\beamer@framepages {51}{54}}
+\headcommand {\slideentry {2}{1}{3}{55/57}{Transformada de Fourier}{0}}
+\headcommand {\beamer@framepages {55}{57}}
+\headcommand {\slideentry {2}{1}{4}{58/62}{Transformada de Fourier}{0}}
+\headcommand {\beamer@framepages {58}{62}}
+\headcommand {\sectionentry {3}{Implementaci\IeC {\'o}n}{63}{Implementaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@sectionpages {43}{62}}
+\headcommand {\beamer@subsectionpages {44}{62}}
+\headcommand {\slideentry {3}{0}{1}{63/63}{}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{64}{Arquitecturas radix}}\headcommand {\beamer@subsectionpages {63}{63}}
+\headcommand {\slideentry {3}{1}{1}{64/65}{Arquitecturas radix}{0}}
+\headcommand {\beamer@framepages {64}{65}}
+\headcommand {\slideentry {3}{1}{2}{66/67}{Arquitecturas radix}{0}}
+\headcommand {\beamer@framepages {66}{67}}
+\headcommand {\slideentry {3}{1}{3}{68/73}{Arquitecturas radix}{0}}
+\headcommand {\beamer@framepages {68}{73}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{74}{Unidad aritm\IeC {\'e}tica}}\headcommand {\beamer@subsectionpages {64}{73}}
+\headcommand {\slideentry {3}{2}{1}{74/78}{Unidad aritm\IeC {\'e}tica}{0}}
+\headcommand {\beamer@framepages {74}{78}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{79}{Multiplicaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {74}{78}}
+\headcommand {\slideentry {3}{3}{1}{79/86}{Multiplicaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {79}{86}}
+\headcommand {\slideentry {3}{3}{2}{87/90}{Multiplicaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {87}{90}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{91}{Memoria}}\headcommand {\beamer@subsectionpages {79}{90}}
+\headcommand {\slideentry {3}{4}{1}{91/96}{Memoria}{0}}
+\headcommand {\beamer@framepages {91}{96}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{97}{Datapath}}\headcommand {\beamer@subsectionpages {91}{96}}
+\headcommand {\slideentry {3}{5}{1}{97/100}{Datapath}{0}}
+\headcommand {\beamer@framepages {97}{100}}
+\headcommand {\slideentry {3}{5}{2}{101/103}{Datapath}{0}}
+\headcommand {\beamer@framepages {101}{103}}
+\headcommand {\slideentry {3}{5}{3}{104/106}{Datapath}{0}}
+\headcommand {\beamer@framepages {104}{106}}
+\headcommand {\beamer@subsectionentry {0}{3}{6}{107}{Escalamiento}}\headcommand {\beamer@subsectionpages {97}{106}}
+\headcommand {\slideentry {3}{6}{1}{107/113}{Escalamiento}{0}}
+\headcommand {\beamer@framepages {107}{113}}
+\headcommand {\beamer@subsectionentry {0}{3}{7}{114}{Unidad de Control}}\headcommand {\beamer@subsectionpages {107}{113}}
+\headcommand {\slideentry {3}{7}{1}{114/120}{Unidad de Control}{0}}
+\headcommand {\beamer@framepages {114}{120}}
+\headcommand {\slideentry {3}{7}{2}{121/125}{Unidad de Control}{0}}
+\headcommand {\beamer@framepages {121}{125}}
+\headcommand {\beamer@subsectionentry {0}{3}{8}{126}{Dise\IeC {\~n}o final}}\headcommand {\beamer@subsectionpages {114}{125}}
+\headcommand {\slideentry {3}{8}{1}{126/126}{Dise\IeC {\~n}o final}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\slideentry {3}{8}{2}{127/127}{Dise\IeC {\~n}o final}{0}}
+\headcommand {\beamer@framepages {127}{127}}
+\headcommand {\beamer@subsectionentry {0}{3}{9}{128}{Interfaces de las arquitecturas}}\headcommand {\beamer@subsectionpages {126}{127}}
+\headcommand {\slideentry {3}{9}{1}{128/128}{Interfaces de las arquitecturas}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\sectionentry {4}{Caracterizaci\IeC {\'o}n y tests}{129}{Caracterizaci\IeC {\'o}n y tests}{0}}
+\headcommand {\beamer@sectionpages {63}{128}}
+\headcommand {\beamer@subsectionpages {128}{128}}
+\headcommand {\slideentry {4}{0}{1}{129/129}{}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\slideentry {4}{0}{2}{130/139}{}{0}}
+\headcommand {\beamer@framepages {130}{139}}
+\headcommand {\beamer@subsectionentry {0}{4}{1}{140}{Se\IeC {\~n}ales Patr\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {129}{139}}
+\headcommand {\slideentry {4}{1}{1}{140/142}{Se\IeC {\~n}ales Patr\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {140}{142}}
+\headcommand {\beamer@subsectionentry {0}{4}{2}{143}{Medici\IeC {\'o}n del error}}\headcommand {\beamer@subsectionpages {140}{142}}
+\headcommand {\slideentry {4}{2}{1}{143/143}{Medici\IeC {\'o}n del error}{0}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\slideentry {4}{2}{2}{144/144}{Medici\IeC {\'o}n del error}{0}}
+\headcommand {\beamer@framepages {144}{144}}
+\headcommand {\slideentry {4}{2}{3}{145/145}{Medici\IeC {\'o}n del error}{0}}
+\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\beamer@subsectionentry {0}{4}{3}{146}{Medici\IeC {\'o}n de la THD}}\headcommand {\beamer@subsectionpages {143}{145}}
+\headcommand {\slideentry {4}{3}{1}{146/146}{Medici\IeC {\'o}n de la THD}{0}}
+\headcommand {\beamer@framepages {146}{146}}
+\headcommand {\slideentry {4}{3}{2}{147/147}{Medici\IeC {\'o}n de la THD}{0}}
+\headcommand {\beamer@framepages {147}{147}}
+\headcommand {\slideentry {4}{3}{3}{148/148}{Medici\IeC {\'o}n de la THD}{0}}
+\headcommand {\beamer@framepages {148}{148}}
+\headcommand {\beamer@subsectionentry {0}{4}{4}{149}{Efecto del escalamiento}}\headcommand {\beamer@subsectionpages {146}{148}}
+\headcommand {\slideentry {4}{4}{1}{149/149}{Efecto del escalamiento}{0}}
+\headcommand {\beamer@framepages {149}{149}}
+\headcommand {\slideentry {4}{4}{2}{150/152}{Efecto del escalamiento}{0}}
+\headcommand {\beamer@framepages {150}{152}}
+\headcommand {\slideentry {4}{4}{3}{153/154}{Efecto del escalamiento}{0}}
+\headcommand {\beamer@framepages {153}{154}}
+\headcommand {\beamer@subsectionentry {0}{4}{5}{155}{Recursos de Implementaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {149}{154}}
+\headcommand {\slideentry {4}{5}{1}{155/155}{Recursos de Implementaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {155}{155}}
+\headcommand {\slideentry {4}{5}{2}{156/160}{Recursos de Implementaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {156}{160}}
+\headcommand {\slideentry {4}{5}{3}{161/161}{Recursos de Implementaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {161}{161}}
+\headcommand {\slideentry {4}{5}{4}{162/162}{Recursos de Implementaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@framepages {162}{162}}
+\headcommand {\beamer@subsectionentry {0}{4}{6}{163}{Implementaci\IeC {\'o}n en hardware}}\headcommand {\beamer@subsectionpages {155}{162}}
+\headcommand {\slideentry {4}{6}{1}{163/163}{Implementaci\IeC {\'o}n en hardware}{0}}
+\headcommand {\beamer@framepages {163}{163}}
+\headcommand {\slideentry {4}{6}{2}{164/168}{Implementaci\IeC {\'o}n en hardware}{0}}
+\headcommand {\beamer@framepages {164}{168}}
+\headcommand {\sectionentry {5}{Conclusiones y trabajos futuros}{169}{Conclusiones y trabajos futuros}{0}}
+\headcommand {\beamer@sectionpages {129}{168}}
+\headcommand {\beamer@subsectionpages {163}{168}}
+\headcommand {\slideentry {5}{0}{1}{169/169}{}{0}}
+\headcommand {\beamer@framepages {169}{169}}
+\headcommand {\beamer@subsectionentry {0}{5}{1}{170}{Conclusiones}}\headcommand {\beamer@subsectionpages {169}{169}}
+\headcommand {\slideentry {5}{1}{1}{170/177}{Conclusiones}{0}}
+\headcommand {\beamer@framepages {170}{177}}
+\headcommand {\beamer@subsectionentry {0}{5}{2}{178}{Trabajos futuros}}\headcommand {\beamer@subsectionpages {170}{177}}
+\headcommand {\slideentry {5}{2}{1}{178/181}{Trabajos futuros}{0}}
+\headcommand {\beamer@framepages {178}{181}}
+\headcommand {\slideentry {5}{2}{2}{182/182}{Trabajos futuros}{0}}
+\headcommand {\beamer@framepages {182}{182}}
+\headcommand {\slideentry {5}{2}{3}{183/183}{Trabajos futuros}{0}}
+\headcommand {\beamer@framepages {183}{183}}
+\headcommand {\slideentry {5}{2}{4}{184/184}{Trabajos futuros}{0}}
+\headcommand {\beamer@framepages {184}{184}}
+\headcommand {\beamer@partpages {1}{184}}
+\headcommand {\beamer@subsectionpages {178}{184}}
+\headcommand {\beamer@sectionpages {169}{184}}
+\headcommand {\beamer@documentpages {184}}
+\headcommand {\def \inserttotalframenumber {55}}

@@ -1,0 +1,27 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Motivaci\IeC {\'o}n y Objetivos}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivacion}{27}{0}{1}
+\beamer@subsectionintoc {1}{2}{Objetivos}{31}{0}{1}
+\beamer@sectionintoc {2}{Selecci\IeC {\'o}n de las arquitecturas}{43}{0}{2}
+\beamer@subsectionintoc {2}{1}{Transformada de Fourier}{44}{0}{2}
+\beamer@sectionintoc {3}{Implementaci\IeC {\'o}n}{63}{0}{3}
+\beamer@subsectionintoc {3}{1}{Arquitecturas radix}{64}{0}{3}
+\beamer@subsectionintoc {3}{2}{Unidad aritm\IeC {\'e}tica}{74}{0}{3}
+\beamer@subsectionintoc {3}{3}{Multiplicaci\IeC {\'o}n}{79}{0}{3}
+\beamer@subsectionintoc {3}{4}{Memoria}{91}{0}{3}
+\beamer@subsectionintoc {3}{5}{Datapath}{97}{0}{3}
+\beamer@subsectionintoc {3}{6}{Escalamiento}{107}{0}{3}
+\beamer@subsectionintoc {3}{7}{Unidad de Control}{114}{0}{3}
+\beamer@subsectionintoc {3}{8}{Dise\IeC {\~n}o final}{126}{0}{3}
+\beamer@subsectionintoc {3}{9}{Interfaces de las arquitecturas}{128}{0}{3}
+\beamer@sectionintoc {4}{Caracterizaci\IeC {\'o}n y tests}{129}{0}{4}
+\beamer@subsectionintoc {4}{1}{Se\IeC {\~n}ales Patr\IeC {\'o}n}{140}{0}{4}
+\beamer@subsectionintoc {4}{2}{Medici\IeC {\'o}n del error}{143}{0}{4}
+\beamer@subsectionintoc {4}{3}{Medici\IeC {\'o}n de la THD}{146}{0}{4}
+\beamer@subsectionintoc {4}{4}{Efecto del escalamiento}{149}{0}{4}
+\beamer@subsectionintoc {4}{5}{Recursos de Implementaci\IeC {\'o}n}{155}{0}{4}
+\beamer@subsectionintoc {4}{6}{Implementaci\IeC {\'o}n en hardware}{163}{0}{4}
+\beamer@sectionintoc {5}{Conclusiones y trabajos futuros}{169}{0}{5}
+\beamer@subsectionintoc {5}{1}{Conclusiones}{170}{0}{5}
+\beamer@subsectionintoc {5}{2}{Trabajos futuros}{178}{0}{5}

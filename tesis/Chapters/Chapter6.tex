@@ -1,0 +1,68 @@
+\chapter{Conclusiones}
+
+\section{Conclusiones Generales}
+
+El alcance propuesto para el presente trabajo se basó en los siguientes puntos:
+
+\begin{itemize}
+    \item IP Cores codificados en el lenguaje Verilog de arquitecturas de
+    cálculo de FFT de tamaño reducido.
+    \item Estudio del comportamiento numérico de las arquitecturas implementadas (ruido, distorsión
+    armónica, etc.)
+    \item Análisis comparativos de procesamiento entre las arquitecturas
+    desarrolladas y desarrollos de terceros.
+    \item Proposición de trabajos futuros y/o mejoras.
+\end{itemize}
+
+Se logró implementar satisfactoriamente dos arquitecturas diferentes basadas en el algoritmo Radix
+para el cóomputo de la FFT, ofreciendo además la posibilidad de optar por dos métodos diferentes de
+multiplicación por los \textit{twiddle factors}, siendo más eficiente el multiplicador complejo en
+FPGAs que posean multiplicadores dedicados.
+
+Dichas implementaciones se resumen en 20 códigos fuente para cada una, de los cuales 17 son
+compartidos entre ambas, que contienen la lógica y descripción del hardware en lenguaje Verilog.
+Adicionalmente se desarrollaron diferentes herramientas que permiten ensayar las arquitecturas en
+diferentes condiciones de forma automática.
+
+Como parte de los ensayos de las arquitecturas se obtuvieron diferentes métricas que permiten
+caracterizarlas. Por un lado se presentó el resumen de recursos utilizados para la síntesis de las
+arquitecturas posibles para una FPGA y se lo comparó con los recursos utilzados por arquitecturas
+desarrolladas por terceros, incluyendo una comercial. De esta comparación se concluye que se cumple
+con el requerimiento de mínima área de chip necesaria y la economía de recursos utilizados,
+resultando más eficiente espacialmente que las soluciones de terceros. De este modo, resulta en una
+opción ventajoda para implementar en sistemas SDR con recursos limitados.
+
+La distorsión armónica total medida se encuentra en el orden de desarrollos de terceros ampliamente
+utilizados, lo que indica que las arquitecturas desarrollas en el presente trabajo de tesis son
+aptas para seer utilizadas en sistemas de comunicación con gran confiabilidad.
+
+El error relativo medido, utilizando como parámetro de medidición un sistema con precisión de punto
+flotante de 64 bits, es comparable con implementaciones de terceros utilizadas comercialmente en
+procesamiento de señales y sistemas de comunicación, por lo que las arquitecturas desarrolladas son
+aptas para su utilización en dichos sistemas.
+
+De este modo se concluye en que se obtuvieron dos arquitecturas, con sus variantes, de baja
+utilización de recursos, aptas para ser utilizadas en sistemas reales de comunicación y
+procesamiento de señales, cumpliendo con los objetivos planteados al comienzo del trabajo de
+tesis.
+
+\section{Trabajos Futuros}
+
+Este trabajo se presentó la primer etapa en el desarrollo de las arquitecturas, quedando
+a futuro varios aspectos a mejorar y posibilidades de optimización del diseño.
+Como potenciales trabajos a futuro en el contexto de la presente tesis, se destacan los siguientes:
+
+\begin{enumerate}
+	\item Estudiar posibles implementaciones de algoritmos de \textit{dithering} para reducir el ruido
+	generado en las arquitecturas.
+	\item Modificar el módulo de rotación Cordic agregando un pipeline que permita aumentar la
+	velocidad de \textit{clock} de las arquitecturas, sin agregar ciclos de \textit{clock} extra al
+	cómputo total de la FFT.
+	\item Modificar el multiplicador complejo agrandando el tamaño de palabra de los factores de
+	multiplicación de los \textit{twiddle factors} y/o optimizarlo para la utilización de los bloques
+	de procesamiento digital de los dispositivos FPGA.
+	\item Modificar el hardware para que el tamaño de palabra del ángulo de rotación sea independiente
+	del tamaño de palabra de las señales.
+	\item Estudiar la posibilidad de modificar las arquitecturas de forma de poder modificar la
+	cantidad de puntos de la FFT en forma dinámica.
+\end{enumerate}
